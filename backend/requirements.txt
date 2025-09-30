@@ -1,0 +1,21 @@
+# Token Quest Backend Dependencies
+# Lightweight Flask backend for crypto token swaps
+
+# Core web framework
+Flask==3.0.0
+flask-cors==4.0.0
+
+# Web3 and blockchain interaction
+web3==6.11.3
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# HTTP and API utilities
+requests==2.31.0
+
+# Development and testing
+gunicorn==21.2.0  # Production WSGI server
+
+# Optional: Enhanced logging
+coloredlogs==15.0.1
