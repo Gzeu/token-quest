@@ -1,0 +1,45 @@
+# Assets directory for Token Quest
+
+## Purpose
+This directory contains static assets for the Token Quest platform:
+
+- **Images**: Logo, icons, background images, treasure chest graphics
+- **Audio**: Sound effects for successful swaps, level up notifications
+- **Fonts**: Custom fonts for the adventure theme
+- **Icons**: Custom SVG icons for tokens and UI elements
+
+## Recommended Assets
+
+### Images
+- `treasure-chest.png` - Main treasure chest icon
+- `coin-stack.png` - XP/coin graphics  
+- `adventure-bg.jpg` - Background texture/pattern
+- `level-badge.svg` - Level progression badges
+
+### Audio (Optional)
+- `coin-collect.mp3` - XP gain sound
+- `level-up.mp3` - Level progression sound
+- `swap-success.mp3` - Successful swap notification
+
+### Icons
+- `tokens/` - Directory for token-specific icons
+- `ui/` - Directory for UI element icons
+
+## Usage
+Assets can be referenced in CSS and HTML:
+
+```css
+.treasure-icon {
+    background-image: url('assets/treasure-chest.png');
+}
+```
+
+```html
+<img src="assets/coin-stack.png" alt="XP Points">
+```
+
+## Optimization
+- Compress images for web (WebP format recommended)
+- Use SVG for icons when possible
+- Keep audio files small (< 100KB)
+- Consider lazy loading for non-critical assets
